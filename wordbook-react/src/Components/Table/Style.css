@@ -1,0 +1,65 @@
+.tableComp {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.tableComp .tableHeaderWrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 .75rem;
+    border-bottom: 1px solid var(--col-200);
+}
+
+.tableComp .tableHeaderWrap .tableData {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: .25rem;
+    padding: .5rem 0;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--col-400);
+}
+
+
+.tableComp .tableHeaderWrap .tableData:last-child {
+    flex: .5;
+    max-width: 3.75rem;
+    text-align: center;
+}
+
+.tableComp .tableBodyWrap {
+    display: flex;
+    flex-direction: column;
+    padding: 0 .75rem;
+}
+
+.tableComp .tableBodyWrap .tableRowWrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid var(--col-200);
+}
+
+.tableComp .tableBodyWrap .tableRowWrap:last-child {
+    border-bottom: none;
+}
+
+.tableComp .tableBodyWrap .tableRowWrap .tableData {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: .25rem;
+    padding: .75rem 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--col-900);
+}
+
+.tableComp .tableBodyWrap .tableRowWrap .tableData:last-child {
+    flex: .5;
+    max-width: 3.75rem;
+    text-align: center;
+}

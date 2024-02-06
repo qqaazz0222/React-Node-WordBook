@@ -1,0 +1,95 @@
+.button {
+    padding: .5rem 1rem;
+    background: none;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    color: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background .3s, border .3s;
+    cursor: pointer;
+}
+
+.fullButton {
+    padding: 1rem 2rem;
+    width: 100%;
+}
+
+.button.primary {
+    background: var(--col-900);
+    border: 1px solid var(--col-900);
+    color: var(--col-0);
+}
+
+.button.primary:hover,
+.button.primary:focus {
+    background: var(--col-800);
+}
+
+.button.secondary {
+    background: var(--col-0);
+    border: 1px solid var(--col-0);
+    color: var(--col-900);
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+    background: var(--col-100);
+}
+
+.button.outline {
+    background: var(--col-0);
+    border: 1px solid var(--col-input);
+    color: var(--col-900);
+}
+
+.button.outline:hover,
+.button.outline:focus {
+    background: var(--col-100);
+}
+
+.button.link {
+    background: var(--col-0);
+    border: 1px solid var(--col-0);
+    color: var(--col-900);
+}
+
+.button.link span:after {
+    display: block;
+    content: '';
+    border-bottom: solid 1px var(--col-900);
+    transform: scaleX(0);
+    transition: transform .3s;
+}
+
+.button.link:hover span:after {
+    transform: scaleX(1);
+}
+
+.button.loading {
+    background: var(--col-input);
+    border: 1px solid var(--col-input);
+    color: var(--col-400);
+    cursor: progress;
+}
+
+.fullButton.link {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    background: var(--col-0);
+    border: 1px solid var(--col-0);
+    color: var(--col-900);
+}
+
+.fullButton.link span:after {
+    display: block;
+    content: '';
+    border-bottom: solid 1px var(--col-900);
+    transform: scaleX(0);
+    transition: transform .3s;
+}
+
+.fullButton.link:hover span:after {
+    transform: scaleX(1);
+}

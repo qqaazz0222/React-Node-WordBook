@@ -1,0 +1,18 @@
+.selectComp {
+    padding: .5rem .75rem;
+    width: 100%;
+    border: 1px solid var(--col-input);
+    border-radius: 6px;
+    outline: none;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.selectComp:focus {
+    outline: 2px solid var(--col-400);
+}
+
+.selectComp option[value=""] {
+    display: none;
+    color: var(--col-300);
+}

@@ -1,0 +1,21 @@
+.titleComp {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    color: var(--col-900);
+}
+
+.subTitleComp {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    color: var(--col-500);
+}
+
+.sectionTitleComp {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--col-900);
+}

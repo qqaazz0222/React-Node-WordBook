@@ -1,0 +1,46 @@
+#quizRangeComp {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 1.5rem;
+}
+
+#quizRangeComp .quizLecuterSelectWrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: .5rem;
+    line-height: 2rem;
+}
+
+#quizRangeComp .quizLecuterSelectWrap input[type="checkbox"] {
+    display: none;
+}
+
+#quizRangeComp .quizLecuterSelectWrap input[type="checkbox"]+label {
+    padding: .45rem .75rem;
+    background: var(--col-0);
+    border: 1px solid var(--col-input);
+    border-radius: .325rem;
+    color: var(--col-400);
+    cursor: pointer;
+}
+
+#quizRangeComp .quizLecuterSelectWrap input[type="checkbox"]:checked+label {
+    background: var(--col-900);
+    border: 1px solid var(--col-900);
+    color: var(--col-0);
+}
+
+#quizPage .quizSettingWrap {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+#quizPage {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}

@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Wanted Sans Variable";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400 1000;
+    src: url("./Assets/Fonts/WantedSansVariable.woff2") format("woff2-variations");
+}
+
+:root {
+    --col-0: #ffffff;
+    --col-50: #f8fafc;
+    --col-100: #f1f5f9;
+    --col-200: #e2e8f0;
+    --col-300: #cbd5e1;
+    --col-400: #94a3b8;
+    --col-500: #64748b;
+    --col-600: #465569;
+    --col-700: #334155;
+    --col-800: #1e293b;
+    --col-900: #0f162a;
+    --col-input: #E4E4E7;
+    --col-danger: #E11E48;
+    --col-danger-outline: #F1A19C;
+}
+
+* {
+    font-family: "Wanted Sans Variable";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
